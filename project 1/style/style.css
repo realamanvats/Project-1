@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+   height: 100vh;
+   width: 100vw;
+   background-color: #edf1ed;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+
+}
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+
+}
+button:hover{
+background-color: white;
+border: 1px solid black;
+color: black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav ul {
+display: flex;
+font-weight: 500;
+align-items: center;
+gap: 30px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+.serch-fiels{
+    display: flex;
+    gap: 35px;
+}
+input
+{
+ padding: 4px 10px;
+
+}
+.hero-section{
+    display: flex;
+   align-items: center; 
+}
+.hero-left-section{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+}
+.hero-left-section h1 span {
+    color: rgb(12, 72, 72);
+    font-weight: 900;
+    font-size: 2.5 rem;
+}
+.hero-left-section p{
+font-weight: 500;
+}
+.hero-left-section p span{
+    font-weight: 700;
+    font-size: 500;
+    color:rgb(18, 155, 155)
+    }
+    .hero-right-section {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+     
+}
+.hero-right-section-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .hero-right-section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  
+  footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
